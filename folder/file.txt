@@ -2,3 +2,4 @@ initial text changed to this text
 add single lline
 add second lline
 try without squash line1
+try without squash line2
