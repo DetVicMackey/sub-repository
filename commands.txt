@@ -1,0 +1,10 @@
+If you used git subtree (and not git submodule) to create the subtree, then it's just a normal dir. To switch it to another branch, just delete it and recreate the subtree from the new branch. This is:
+
+git rm <subtree>
+git commit
+git subtree add --prefix=<subtree> <repository_url> <branch>
+
+
+https://www.atlassian.com/git/tutorials/git-subtree
+
+git subtree add|pull|push --prefix .vim/bundle/tpope-vim-surround https://bitbucket.org/vim-plugins-mirror/vim-surround.git master --squash
