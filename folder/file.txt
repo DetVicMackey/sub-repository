@@ -3,3 +3,4 @@ add single lline
 add second lline
 try without squash line1
 try without squash line2
+making a change in the parent directory
