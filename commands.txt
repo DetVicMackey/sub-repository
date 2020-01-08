@@ -1,0 +1,19 @@
+
+https://www.atlassian.com/git/tutorials/git-subtree
+
+git subtree add|pull|push --prefix .vim/bundle/tpope-vim-surround https://bitbucket.org/vim-plugins-mirror/vim-surround.git master --squash
+
+
+
+basic commands
+
+stage files:    git add .
+                git add [file]  
+
+commit: git commit -m “[ Type in the commit message]”  
+
+checkout remote branch: git checkout [branch name]
+
+Checkout and create new branch: git checkout -b [branch name]  
+
+push: git push -u origin|remote branch_name
